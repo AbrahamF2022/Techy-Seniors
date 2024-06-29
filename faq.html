@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techy Seniors</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        h4 {
+            font-size: 20px;
+        }
+        h5 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: black;
+            padding: 1px;
+            text-align: center;
+        }
+        section {
+            padding: 2px;
+            line-height: 1.8;
+            font-weight: bold;
+        }
+        .service-card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-bottom: 2px;
+            padding: 2px;
+        }
+        .service-card h2 {
+            color: #333;
+        }
+        footer {
+            background-color: black;
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+        .read-more-content {
+            display: none; /* Hide content by default */
+        }
+        .special-section {
+            background-image: url('6397022.jpg');
+            background-size: cover; /* Adjust to your needs */
+            background-position: center center;
+            background-repeat: no-repeat;
+            color: white; /* Set text color to contrast with the background */
+            padding: 50px 0; /* Adjust padding as needed */
+        }
+        .testimonial-content {
+            max-height: 150px;
+            overflow: hidden; 
+            transition: max-height 0.5s ease;
+        }
+        .read-more-btn {
+            cursor: pointer;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        img{
+            
+            height 20px;
+        }
+         .card-img-top {
+            border-top-left-radius: 10px; /* To ensure the image conforms to the card's border radius */
+            border-top-right-radius: 10px;
+            object-fit: cover; /* Ensure the image covers the top area */
+        }
+        .card {
+    height: auto; /* Adjust this value as needed */
+}
+  .fit-video {
+    width: 100%; /* or specify a specific width like 300px */
+    height: auto; /* this will maintain the aspect ratio */
+       margin-bottom: 0px; /* Adjust this value as neede*/
+}
+        .card-body {
+    padding: 10px; /* Adjust this value to reduce spacing */
+}
+
+    </style>
+</head>
+<body class="d-flex flex-column">
+    <main class="flex-shrink-0">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container px-5">
+                <a class="navbar-brand text-white" href="index.html"><b>Techy Seniors</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item fw-bolder"><a class="text-white nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item fw-bold"><a class="text-white nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item fw-bold"><a class="text-white nav-link" href="contact.html">Schedule Visit</a></li>
+                        <li class="nav-item fw-bold"><a class="text-white nav-link" href="pricing.html">Services</a></li>
+                        <li class="nav-item fw-bold"><a class="text-white nav-link" href="faq.html">Testimonials</a></li>
+                        <li class="nav-item fw-bold"><a class="text-white nav-link" href="portfolio-item.html">Techy TV</a></li>
+                    </ul>      
+                </div>
+            </div>
+        </nav>
+        <section class="special-section">
+            <div class="container px-5 my-5 text-center">
+                <h2 class="display-4 fw-bolder text-white mb-3" style="font-size: 45px;">Our Techy Seniors</h2>
+                <h4 class="text-white"><b><p class="lead text-white mb-4 about-text"><b>Welcome to Techy Seniors, where we are dedicated to bridging the digital divide for our beloved senior citizens. With our personalized assistance and unwavering commitment to excellence, you can rest assured that your technological journey will be both empowering and enriching. Since our inception, we have provided exceptional service to many satisfied clients. Watch some of the video testimonials from our amazing clients and see how Techy Seniors has positively impacted their lives below!</b></p> </b></h4>
+            </div>
+        </section>
+        <!-- Testimonials section -->
+        <section class="py-5">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <!-- Testimonial 1 -->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Pearlette.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Pearlette Morgan</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing the latest member of the Techy Senior Family: Ms. Pearlette Morgan! During today’s personalized home visit, Ms. Morgan sought assistance with managing WhatsApp across multiple locations, and with our help, she seamlessly utilized the change number feature. Next, we guided her through managing notifications and mastering the art of turning them off, concluding with a tutorial on uninstalling apps. We extend our gratitude to Ms. Morgan for entrusting us to assist her and warmly welcome her to our Techy Senior Family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                  <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Patricia%20henry.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Patricia Henry</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       In a recent home visit with our esteemed Techy Senior, Ms. Patricia Henry, we addressed a printer malfunction characterized by sheets not feeding properly and disintegrating during printing attempts. At first she aspired to buy a new printer, but called on us to give a look beforehand. Through meticulous examination and troubleshooting, we identified an unexpected obstruction: a lodged pill inside the printer. Overcoming this challenge required employing various methods to safely remove the pill without damaging the printer. On top of her saving money, the printer is now fully operational, demonstrating our commitment to resolving technical issues for seniors free of charge! We extend our gratitude to Ms. Henry for entrusting us with this task and for being an integral part of our tech-savvy community.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                 
+                    <!-- Testimonial 4 -->
+                   <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Loraine.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Marjorie Hinds</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing our latest Techy Seniors addition: Ms. Marjorie Hinds. We recently had the privilege of assisting Ms. Hinds in regaining access to her computer, as she had encountered the inconvenience of forgetting her password, rendering her unable to log in. Through a diligent process of hard resetting her laptop, we successfully restored her access, enabling her to set a new password that will remain indelibly etched in her memory.<br><br>
+
+We extend our heartfelt gratitude to Ms. Hinds for entrusting us with this task and warmly welcome her into the Techy Seniors family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                  <!-- Testimonial 5 -->
+                    
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Mr%20nicholson.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Mr. Carlos Nicholson</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing the latest addition to our Techy seniors community: Mr. Carlos Nicholson! We provided valuable assistance in his quest for a new computer. By carefully understanding his specific needs and budget, we conducted thorough research, offered informed recommendations, and explained crucial factors to consider when choosing a computer, including memory size. As a result, Mr. Carlos found the perfect computer that he now delights in. We extend our gratitude to Mr. Carlos for entrusting us with his computer purchase and warmly welcome him to the techy seniors family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 6 -->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Tom%20Herskovits.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Mr. Thomas Herskovits</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                      Allow me to introduce the senior who ignited the spark for creating this organization: Mr. Tom Herskovits. Over the course of several months, it has been a delightful experience assisting him with a range of computer-related challenges, witnessing his face light up with each successful resolution. Mr. Herskovits served as the catalyst for my aspiration to extend this assistance to other seniors, with the hope of bringing that same joyful expression to their faces. From helping him access files to navigating support calls to resolve issues and setting up user-friendly desktops, each interaction has been a source of immense success. I want to thank Mr. Tom for being an inspiration and welcome him formally to the Techy Senior family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testiomonial 7 -->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="daphnee.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Daphne Nedrick</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                      Introducing our latest tech-savvy senior: Ms. Daphne Nedrick! Today, we provided Ms. Nedrick with personalized assistance. We guided her in accessing her iCloud email and helped her create a Gmail account for potential future needs. Furthermore, we enhanced the security of her accounts by updating her passwords, making them more memorable and accessible. To streamline her experience, we also installed the gmail and bible apps on her phone for convenient access. We also want to thank Ms. Lunise Morrison very much for referring Ms. Nedrick to us! We extend our gratitude to Ms. Daphne Nedrick for entrusting us with her tech needs and warmly welcome her to the Techy Seniors community.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 8-->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Rita%20Herskovits.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Rita Herskovits</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                        We are thrilled to introduce our latest addition to the Techy Seniors community: Ms. Rita Herskovits, the esteemed Director of The David M. Herskovits Foundation. Our collaboration with Ms. Rita over the past months has been a rewarding journey, as we’ve had the privilege of guiding her through the intricacies of various programs, from essential organizational documents for major events to the intricacies of Excel spreadsheets for budget management. In addition, we’ve had the honor of crafting websites to promote her foundation, as eloquently showcased in her outstanding video. We extend our heartfelt appreciation to Ms. Rita for her generous endorsements and warmly welcome her into the Techy Senior Family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 9-->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Diane%20Nicholson%20Vid.mov" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Diane Nicholson</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing our latest addition to the Techy Senior family: Ms. Diane Nicholson! During her recent at-home visit, we had the privilege of assisting Ms. Nicholson with a range of persistent tech challenges. These included tasks such as creating files, adding items to existing files, organizing email folders, and imparting some valuable laptop tricks and tips. Additionally, we provided her with insightful suggestions regarding whether she should consider a new purchase for her computer. <br><br>
+
+Don't miss the video she graciously shared, highlighting the assistance we provided. We extend our heartfelt gratitude to Ms. Nicholson for entrusting us with her tech needs and warmly welcome her to our Techy family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- Testimonial 10 -->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Larry%20Dinkin.MP4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Mr. Larry Dinkin</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing the latest addition to our Techy Seniors community – Mr. Larry Dinkin. We had the pleasure of assisting Mr. Dinkin with his desktop computer, which had encountered some technical issues. Despite his remote work situation in New York, he was unable to resolve the problem on his own. So, we took the initiative to visit his residence and provide a solution.
+In addition to repairing his computer, we had the delightful opportunity to guide him through the process of sending us a video. We patiently walked him through the intricacies of using WhatsApp and sending a video via the platform.
+We extend our sincere gratitude to Mr. Dinkin for entrusting us with his technical needs and warmly welcome him to our ever-growing Techy family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                <!-- Testimonial 11 -->
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img src="Trcia.jpg">
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Tricia Moncrieffe</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing Ms. Tricia Moncrieffe, our latest addition to the Techy Seniors Family. During a recent support session, we had the pleasure of guiding her through the process of working with two external hard drives, addressing her inquiries with utmost care and attention.<br><br>
+
+As part of our comprehensive assistance, we facilitated the seamless transfer of her cherished photos from the external hard drives to Google Photos, providing an added layer of security for her precious memories. Moreover, we assisted her in accessing her Gmail account and guided her step-by-step through the process of importing photos from the external hard drives into Google Photos.<br><br>
+
+To ensure Ms. Tricia's confidence in replicating the procedure in the future, we thoughtfully recorded the entire session for her easy reference. We sincerely appreciate Ms. Tricia's trust in us and extend a warm welcome to her as the newest member of our Techy Seniors family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                          <!-- Testimonial 12 -->
+                    
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Andrea.MOV" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Andrea McCaskill</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing Ms. Andrea McCaskill, our esteemed senior beneficiary of virtual assistance! During this virtual session, we diligently resolved an issue pertaining to her Google account being overloaded. By expertly navigating through her account, we identified and successfully addressed the root cause, which was an excessive accumulation of emails. Through a meticulous process of deletion, her Google account has been freed up and now stands ready for optimal utilization. We extend our heartfelt gratitude to Ms. Andrea McCaskill for granting us the opportunity to provide our assistance and warmly welcome her to the esteemed Techy Senior family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                          <!-- Testimonial 12 -->
+                        <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Patricia%20vid%201.mov" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Patricia Henry</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing our latest addition to the Techy Senior team, Ms. Patricia Henry. During our recent in-home visit, we successfully addressed three important issues. Our first task was to assist Ms. Henry in accessing the photos on her phone via her computer. We presented two methods, namely direct transfer using her phone and the preferred method we employed, Google Photos. By guiding her through the steps of accessing Google Photos, we ensured that she can now retrieve her photos anytime, hassle-free.<br><br>
+
+The next challenge was to help Ms. Henry access her email. To overcome this hurdle, we demonstrated how to access her email through her preferred web browser. We tackled the issue systematically, enabling her to effortlessly manage her email account.<br><br>
+
+The final issue we resolved was related to Doordash, where the app failed to function. Upon investigation, we discovered that the app required an update. We promptly updated the app and ensured that all other apps requiring updates were also addressed, thereby averting any potential future problems. As an additional assistance, we ensured that photos received via WhatsApp no longer automatically save to her camera roll.<br><br>
+
+We extend our heartfelt gratitude to Ms. Patricia Henry for allowing us the opportunity to assist her. On behalf of the Techy Senior Family, we wholeheartedly welcome her to our community of tech-savvy individuals.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 13-->
+                        <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Pat%20Vid%201.mov" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Yvonne Blackford</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Introducing Ms. Yvonne Blackford, our esteemed newest member at Techy Seniors. During today's session, I had the privilege of assisting her in seamlessly transferring photos from her phone to her external drive. As part of our comprehensive support, we also provided her with valuable insights into the advantages of utilizing Google services such as Google Drive and Gmail. Furthermore, we guided her on accessing her photos on her computer through iCloud, as well as effectively navigating her computer's file explorer to explore various functions. We requested her to send a 20 second or less video of her experience. She provided a video of how her experience was even saying “20 seconds is not enough time to explain and show appreciation for what you did🤗” We extend our gratitude to Ms. Yvonne for granting us the opportunity to assist her and for becoming a cherished member of our Techy family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 14-->
+                        <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <video controls class="fit-video">
+                                            <source src="Grandma%20Vid%201.mov" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Verona Lalor</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                      Meet Ms. Verona Lalor, a cherished member of our esteemed Techy Senior Family. During her recent home visit, she approached us with a request to address the issue she was facing with her WhatsApp and several other applications. With our technical expertise, we swiftly resolved the problem, restoring her WhatsApp and ensuring the smooth functioning of all the affected apps. To prevent any future recurrence, we diligently ensured that her device and software were fully updated.<br><br>
+
+Additionally, we extended our assistance to Ms. Lalor by endeavoring to help her access a computer for which she had forgotten the password. Despite our best efforts, we encountered difficulties in deciphering the password and had to resort to resetting her computer. However, she expressed heartfelt gratitude for regaining access to her computer, emphasizing her appreciation for our support.<br><br>
+
+Our final endeavor involved ensuring the optimal functionality of a phone that Ms. Lalor possessed. Through our expertise, we successfully resolved any issues and took the opportunity to introduce her to the diverse range of functions and features available. In a gesture of appreciation, Ms. Lalor shared her experience through a video testimonial, providing an account of her satisfaction with our services. Her rating of 5 out of 5 exemplifies the excellence we strive to deliver. We extend our deepest gratitude to Ms. Verona Lalor for allowing us the privilege of assisting her and warmly welcoming her as an invaluable member of our flourishing family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img src="Aaron%20.jpg" >
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Ireta Aarons</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                        Introducing the latest addition to our Techy Seniors family, Ms. Ireta Aarons! During this session, our Chief Legislative Counsel, Amanda Flynn, provided invaluable assistance with Ms. Ireta's technology concerns. Her primary objective was to master the navigation of her cherished Bible app. With Amanda's patient guidance, Ms. Ireta explored all the app's features, ensuring she can harness its full potential.<br><br>
+                                        
+Dive into the slides to catch glimpses of the enlightening teachings and don't miss the final slide showcasing Ms. Ireta's tech-savvy prowess! A heartfelt thank you to Ms. Ireta for entrusting us to enhance her tech experience. Welcome to our esteemed Techy Seniors community!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                      <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img src="Facey%20Computer.jpg" >
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Yvonne Facey</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                       Officially Announcing Our Second Computer Recipient<br>
+Ms. Yvonne Facey
+<br><br>
+Introducing Ms. Yvonne Facey, our esteemed recipient of the second computer in our program. During the session, we provided her with a comprehensive overview of the laptop's fundamental functionalities, including powering it on, connecting it to a power source, and accessing essential applications such as internet browsing and Gmail for managing her emails. Additionally, we assisted her in creating a new Google account, ensuring she can easily access it in the future. To further ensure her convenience, we promptly shared the account details with her via text message, enabling her to securely retain this information. We express our sincere gratitude to Ms. Yvonne Facey for granting us the opportunity to assist her and extend a warm welcome to her as a valued member of the Techy family.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                      <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img src="Rainford%20Computer.jpg" >
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Jennifer Rainford</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                     Meet Ms. Jennifer Rainford, the proud recipient of one of our three coveted laptops being given away. Ms. Rainford's laptop will serve as a valuable tool in her pursuit of writing her book, a passion project she holds dear to her heart.<br><br>
+
+During our recent session, we had the privilege of guiding Ms. Rainford through the laptop's functionalities, acquainting her with the various tools at her disposal. Among these, we placed special emphasis on introducing her to the wonders of Google Docs—a cutting-edge, cloud-based word processing solution. We took the time to explain why Google Docs is the preferred choice over traditional software like Microsoft Word. With its seamless accessibility across devices and real-time collaboration features, Google Docs empowers writers like Ms. Rainford to work efficiently and effortlessly.<br><br>
+
+One feature that particularly resonated with Ms. Rainford was the remarkable voice-to-text functionality, a game-changer for her writing process. By simply speaking her thoughts aloud, the laptop transcribes her words into text, eliminating the need for manual typing. This invaluable tool enables Ms. Rainford to capture her creativity swiftly and fluidly, allowing her ideas to flow effortlessly onto the digital page.<br><br>
+
+An official presentation will be done on Sunday where she will also be giving her statement! On behalf of the entire Techy family, we extend a warm welcome to Ms. Jennifer Rainford. We are honored to have her as a valued member of our community, and we eagerly await the extraordinary accomplishments she will undoubtedly achieve with her new laptop. Together, we will support her every step of the way as she brings her book to life and leaves an indelible mark on the literary world.<br><br>
+
+Welcome to the Techy family!
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                      <div class="col-lg-4 mb-5">
+                        <div class="card h-10 shadow border-0">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img src="Grandma%203.jpg" >
+                                    </div>
+                                    <div class="slide">
+                                        <img class="card-img-top" src="Patricia%20Originial%201.jpg" alt="Patricia Henry Video">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Ms. Roenna Flynn</h5>
+                                <div class="testimonial-content">
+                                    <p class="card-text mb-0">
+                                      Meet Ms. Roenna Flynn, the esteemed pioneer of the Techy Seniors Family. During our in-home visit, we had the privilege of guiding her through the intricacies of her Chromebook. Together, we explored the art of navigating the vast world of the internet, delving into her specific goal of accessing her church fellowship on YouTube. Patiently, we walked her through the process of searching for and navigating the YouTube site. Witnessing her mastery of the steps, as she repeated them to us, was truly inspiring. In Ms. Roenna's own words, she commended our exceptional service, stating, "Good business and a 5/5 experience!" We extend our heartfelt gratitude to Ms. Roenna for allowing us the opportunity to assist her on this enriching journey.
+                                    </p>
+                                </div>
+                                <div class="read-more-btn" onclick="toggleTestimonial(this)">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">Copyright &copy; Techy Seniors 2023</div>
+                </div>
+            </div>
+        </div>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS -->
+    <script src="js/scripts.js"></script>
+    </footer>
+    <script>
+        // JavaScript to toggle testimonial content
+        function toggleTestimonial(btn) {
+            const content = btn.parentElement.querySelector('.testimonial-content');
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+                btn.textContent = "Read more";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                btn.textContent = "Read less";
+            }
+        }
+    </script>
+</body>
+</html>
