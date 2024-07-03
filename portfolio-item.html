@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techy Seniors</title>
     <!-- Favicon-->
@@ -10,10 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    </head>
     <style>
-        
-          section {
+        section {
             background-image: url('6397022.jpg');
             background-size: cover;
             background-position: center center;
@@ -23,145 +21,134 @@
         }
         .gallery img {
             width: 150px; /* Set the width you want for the images */
-            height:  150px; /* Set the height you want for the images */
+            height: 150px; /* Set the height you want for the images */
             object-fit: cover; /* This ensures the images cover the area without distortion */
             margin: 5px; /* Optional: Add some space between the images */
         }
-         p {
+        p {
             font-size: 18px;
-             line-height: 3rm;
+            line-height: 1.5rem;
         }
-       /* Adjust video size */
-
-        
-       @media (max-width: 768px) {
-    .gallery img {
-        width: 370px; /* Adjust width for smaller screens */
-        height: 400px
-        
-    }
-           
-        
-}
-
-
+        /* Adjust video size */
+        .video-wrapper video {
+            width: 100%; /* You can set a specific width like 640px */
+            height: auto; /* This will maintain the aspect ratio */
+            max-width: 100%; /* Ensure it doesn't exceed the container width */
+        }
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 370px; /* Adjust width for smaller screens */
+                height: 400px;
+            }
+            .video-wrapper video {
+                width: 100%;
+                height: auto;
+            }
+        }
     </style>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-             <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container px-5">
                 <a class="navbar-brand text-white" href="index.html"><b>Techy Seniors</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item fw-bolder"><a class="text-white nav-link" href="index.html">Home</a></li>
                         <li class="nav-item fw-bold"><a class="text-white nav-link" href="about.html">About Us</a></li>
                         <li class="nav-item fw-bold"><a class="text-white nav-link" href="contact.html">Schedule Visit</a></li>
                         <li class="nav-item fw-bold"><a class="text-white nav-link" href="pricing.html">Services</a></li>
                         <li class="nav-item fw-bold"><a class="text-white nav-link" href="faq.html">Testimonials</a></li>
                         <li class="nav-item fw-bold"><a class="text-white nav-link" href="portfolio-item.html">Techy TV</a></li>
-                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Support</b></a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="text-black dropdown-item" href="blog-home.html"><b>Volunteer Sign Up</b></a></li>
-                                    <li><a class="text-black dropdown-item" href="blog-post.html"><b>Donate</b></a></li>
-                                </ul>
-                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Support</b></a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <li><a class="text-black dropdown-item" href="blog-home.html"><b>Volunteer Sign Up</b></a></li>
+                                <li><a class="text-black dropdown-item" href="blog-post.html"><b>Donate</b></a></li>
+                            </ul>
+                        </li>
                     </ul>   
                 </div>
             </div>
         </nav>
-              <!-- Page Content-->
-           <section class="bg-silver py-5">
+        <!-- Page Content-->
+        <section class="bg-silver py-5">
             <div class="container px-5 my-5 text-center">
                 <h2 class="display-4 fw-bolder text-white mb-3" style="font-size: 70px;"><b>Techy TV</b></h2>
-                  <h4 class="text-white"><b><p class="lead text-white mb-4 about-text"><b>Welcome to Techy TV! <br>View video tutorials done by student volunteers!</b></p> </b></h4>
+                <h4 class="text-white"><b><p class="lead text-white mb-4 about-text"><b>Welcome to Techy TV! <br>View video tutorials done by student volunteers!</b></p></b></h4>
             </div>
         </section>
-            <br><br>
-            
- 
-       
-               <div class="container px-5">
-   <!-- <h1 class="fw-bolder fs-5 mb-4">Company Blog</h1> -->
-    <div class="card border-0 shadow rounded-3 overflow-hidden">
-        <div class="card-body p-0">
-            <div class="row gx-0">
-                <div class="col-lg-6 col-xl-5 py-lg-5">
-                    <div class="p-4 p-md-5">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
-                        <div class=" fw-bolder"><h2><b>Gmail Tutorial</b></h2></div>
-                        <p>Join Abraham Flynn as he guides you through the process of creating a Gmail Google account, perfect for those considering a switch or establishing their very first account. Do you know a senior who could benefit from this information? Don’t hesitate to share it with them or direct them to our YouTube channel. </p>
-                       
+        <br><br>
+        <div class="container px-5">
+            <div class="card border-0 shadow rounded-3 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 col-xl-5 py-lg-5">
+                            <div class="p-4 p-md-5">
+                                <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
+                                <div class="fw-bolder"><h2><b>Gmail Tutorial</b></h2></div>
+                                <p>Join Abraham Flynn as he guides you through the process of creating a Gmail Google account, perfect for those considering a switch or establishing their very first account. Do you know a senior who could benefit from this information? Don’t hesitate to share it with them or direct them to our YouTube channel.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-7 video-wrapper">
+                            <video controls>
+                                <source src="AbrahamVid.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-7">
-                    <video controls>
-                        <source src="AbrahamVid.MP4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
         </div>
-    </div>
-</div>
- <br><br><br><br>
-            
-              <div class="container px-5">
-  
-    <div class="card border-0 shadow rounded-3 overflow-hidden">
-        <div class="card-body p-0">
-            <div class="row gx-0">
-                <div class="col-lg-6 col-xl-5 py-lg-5">
-                    <div class="p-4 p-md-5">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
-                        <div class=" fw-bolder"><h2><b>Facebook Tutorial</b></h2></div>
-                        <p>In this informative video, our dedicated volunteer, Halle, provides a comprehensive guide on downloading and accessing Facebook. Through this tutorial, she adeptly demonstrates the account creation process and expertly navigates various workarounds for utilizing the platform effectively. We encourage you to share this valuable resource with friends and family members who may be encountering challenges while accessing the app.</p>
-                       
+        <br><br><br><br>
+        <div class="container px-5">
+            <div class="card border-0 shadow rounded-3 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 col-xl-5 py-lg-5">
+                            <div class="p-4 p-md-5">
+                                <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
+                                <div class="fw-bolder"><h2><b>Facebook Tutorial</b></h2></div>
+                                <p>In this informative video, our dedicated volunteer, Halle, provides a comprehensive guide on downloading and accessing Facebook. Through this tutorial, she adeptly demonstrates the account creation process and expertly navigates various workarounds for utilizing the platform effectively. We encourage you to share this valuable resource with friends and family members who may be encountering challenges while accessing the app.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-7 video-wrapper">
+                            <video controls>
+                                <source src="HalleVideo.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-7">
-                    <video controls>
-                        <source src="HalleVideo.MP4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-            <br><br><br><br>
-             <div class="container px-5">
-   
-    <div class="card border-0 shadow rounded-3 overflow-hidden">
-        <div class="card-body p-0">
-            <div class="row gx-0">
-                <div class="col-lg-6 col-xl-5 py-lg-5">
-                    <div class="p-4 p-md-5">
-                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
-                        <div class=" fw-bolder"><h2><b>How to Update an App Tutorial</b></h2></div>
-                        <p>Introducing our latest student volunteer, Brandon Garcia! In Brandon’s video, he expertly guides us through the process of updating an app and explains the compelling reasons behind it. When confronted with a malfunctioning app or missing features, these steps he shares become invaluable. This service opportunity not only benefits seniors but also earned Brandon well-deserved service hours for his concise and informative video presentation. We extend our heartfelt gratitude to Brandon for sharing this enlightening video with us!</p>
-                       
+        <br><br><br><br>
+        <div class="container px-5">
+            <div class="card border-0 shadow rounded-3 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 col-xl-5 py-lg-5">
+                            <div class="p-4 p-md-5">
+                                <div class="badge bg-primary bg-gradient rounded-pill mb-2">New</div>
+                                <div class="fw-bolder"><h2><b>How to Update an App Tutorial</b></h2></div>
+                                <p>Introducing our latest student volunteer, Brandon Garcia! In Brandon’s video, he expertly guides us through the process of updating an app and explains the compelling reasons behind it. When confronted with a malfunctioning app or missing features, these steps he shares become invaluable. This service opportunity not only benefits seniors but also earned Brandon well-deserved service hours for his concise and informative video presentation. We extend our heartfelt gratitude to Brandon for sharing this enlightening video with us!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-7 video-wrapper">
+                            <video controls>
+                                <source src="DudeVideo.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-7">
-                    <video controls>
-                        <source src="DudeVideo.MP4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-       
-          
-       
-
+        <br><br><br><br>
     </main>
-        </body> 
-       <footer class="bg-black py-4 mt-auto">
+    <footer class="bg-black py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
@@ -177,5 +164,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-   </body> 
+</body>
 </html>
